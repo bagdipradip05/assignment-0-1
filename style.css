@@ -15,6 +15,11 @@ h4{
     color:rgba(197, 24, 24, 0.945);
     font-size:60px;
 }
+
+h6{
+    font-size:18px;
+    color:rgb(160, 8, 8);
+}
 .banner{
     width:100%;
     height:100vh;
@@ -72,6 +77,8 @@ h4{
 
 .half-width img{
     width:80%;
+    border:5px solid tomato;
+    border-radius: 15px;
    
 }
 
@@ -90,3 +97,51 @@ h4{
     font-size:25px;
 }
 
+.flexible-container-2{
+    display:flex;
+    margin-bottom:100px;
+}
+
+.donate-item-2{
+    box-shadow: 10px 10px 40px rgb(231, 222, 222) ;
+    width:335px;
+    height:365px;
+    margin-left:800%;
+    margin-right: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin:50px 40px;
+    position:relative;
+    
+}
+
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.flexble-contain-1{
+ 
+    margin-bottom:100px;
+    display: inline-flex;
+}
+
+.donate-item-4{
+    box-shadow: 10px 10px 40px rgb(231, 222, 222) ;
+    width:335px;
+    height:280px;
+    margin-left:800%;
+    margin-right: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin:50px 40px;
+    position:relative;
+    font-size:20px;
+}
+
+ 
