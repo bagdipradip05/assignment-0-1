@@ -1,14 +1,19 @@
 
 body{
     margin:0;
+    font-family: ;
 }
 h1{
     color:rgb(216, 22, 8);
     font-size:30px;
 }
-p{
-    color:rgb(219, 9, 226);
-    font-size:20px;
+h5{
+    color:rgba(209, 231, 7, 0.938);
+    font-size:30px;
+}
+h4{
+    color:rgba(197, 24, 24, 0.945);
+    font-size:60px;
 }
 .banner{
     width:100%;
@@ -59,5 +64,29 @@ p{
     text-align: center;
     padding:80px;
     color:rgb(211, 121, 12);
+}
+.half-width{
+    width:50%;
+    padding:5%;
+}
+
+.half-width img{
+    width:80%;
+   
+}
+
+.flexible-container{
+    display:flex;
+    margin-bottom:100px;
+
+}
+
+.footer-width-1{
+    width:100%;
+    padding:5%;
+    background-color: rgb(29, 27, 27);
+    text-align:center;
+    color:rgb(171, 206, 13);
+    font-size:25px;
 }
 
