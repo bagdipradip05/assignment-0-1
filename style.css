@@ -11,15 +11,34 @@ h1{
 h5{
     color:rgba(209, 231, 7, 0.938);
     font-size:30px;
+    font-weight: bold;
 }
 h4{
     color:rgba(197, 24, 24, 0.945);
     font-size:60px;
+    font-weight: bold;
+    
 }
 
 h6{
     font-size:18px;
     color:rgb(160, 8, 8);
+}
+
+.pra-4{
+    font-size:25px;
+    color:rgb(204, 87, 9);
+    font-weight: bold;
+}
+.pra-8{
+    color:brown;
+}
+.pra-10{
+    font-weight: bold;
+}
+
+.color-6{
+    color:rgba(4, 73, 21, 0.842);
 }
 .banner{
     width:100%;
@@ -70,6 +89,7 @@ h6{
     text-align: center;
     padding:80px;
     color:rgb(211, 121, 12);
+    font-weight: bold;
 }
 .half-width{
     width:50%;
